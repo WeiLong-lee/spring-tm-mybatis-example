@@ -1,0 +1,20 @@
+
+# 开发环境配置
+server:
+  # 服务端口
+  port: 8081
+
+
+
+
+# spring 配置
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: 123456
+    url: jdbc:postgresql://127.0.0.1:5432/mybatis_example
+
+# 日志
+logging:
+  config: classpath:log4j2.xml

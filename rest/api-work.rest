@@ -1,0 +1,26 @@
+
+### 查询账户信息
+GET http://localhost:8081/user/get-user-info?userId=6
+Accept: application/json
+Cache-Control: no-cache
+
+###
+
+### 修改用户信息
+POST http://localhost:8081/user/update-user-info/2?throwOneFlag=true&throwTwoFlag=false
+Content-Type: application/json
+Accept: application/json
+Cache-Control: no-cache
+
+{
+ "id" :6,
+ "name" : "lwl",
+ "pwd" : "1000",
+ "phone" :"",
+ "address":"",
+ "account":{"info":"这是一个事务测试"}
+ }
+###
+
+
+
