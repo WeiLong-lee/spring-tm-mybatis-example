@@ -54,7 +54,7 @@
       <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
       <scope>runtime</scope>
-      <version>RELEASE</version>
+      <version>42.3.7</version>
     </dependency>
 
     <!--mybatis-->
